@@ -13,10 +13,10 @@ public class C04sanner {
         System.out.print("수2>");
         String num2 = scanner.nextLine();
 
-        double n1 = Double.parseDouble(num1);
-        float n2 = Float.parseFloat(num2);
+        double v1 = Double.parseDouble(num1);
+        float v2 = Float.parseFloat(num2);
 
         //
-        System.out.println("더한 결과: " + (n1 + n2));
+        System.out.println("더한 결과: " + (v1 + v2));
     }
 }
