@@ -1,4 +1,4 @@
-package ch02.lectrue.p02type;
+package ch02.lectule.p02type;
 
 public class C0Type {
     public static void main(String[] args){
