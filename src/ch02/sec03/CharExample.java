@@ -1,4 +1,4 @@
-package ch2.sec03;
+package ch02.sec03;
 
 public class CharExample {
     public static void main(String[] args){

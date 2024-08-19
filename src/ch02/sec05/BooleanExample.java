@@ -1,4 +1,4 @@
-package ch2.sec05;
+package ch02.sec05;
 
 public class BooleanExample {
     public static void main(String[] args){
