@@ -7,11 +7,11 @@ public class S03 {
         int stuents = 30;
 
         //학생 한면이 가지는 연필의 수
-        int pencilsPerStuents = (534 / 30); //17
+        int pencilsPerStuents = (pencils / stuents); //17
         System.out.println("학생 한면이 가지는 연필 : = " + pencilsPerStuents);
         
         //남은 연필의 수
-        int pencilsLeft= (534 % 30); //24
+        int pencilsLeft= (pencils % stuents); //24
         System.out.println("남은 연필 : " + pencilsLeft);
     }
 }
