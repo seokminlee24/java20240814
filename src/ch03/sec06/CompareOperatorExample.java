@@ -24,7 +24,7 @@ public class CompareOperatorExample {
         float num5 = 0.1f;
         double num6 = 0.1;
         boolean result6 = (num5 == num6);
-        boolean result7 = (num5 == (float) num6);
+        boolean result7 = (num5 == (float) num6); //쓰지마라 정수형에서 변환해라
         System.out.println("result6 = " + result6);//false
         System.out.println("result7 = " + result7);//true
 
