@@ -15,7 +15,7 @@ public class C01Logical {
         System.out.println(false && true); // false
         System.out.println(false && false); // false
 
-        // or (||)
+        // or (||)(|)
         // 두 피연산자가 모두 false 일 때만 결과 false
         // 그 외는 true
         System.out.println("or -----------------");
