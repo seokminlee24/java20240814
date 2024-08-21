@@ -1,4 +1,4 @@
-package ch04.sec04;
+package ch04.sec03;
 
 public class SwichCharExample {
     public static void main(String[] args) {
