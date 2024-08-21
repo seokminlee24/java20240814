@@ -15,6 +15,6 @@ public class C06Random {
         // 0 + 1 <= (int) (n*3) + 1 <= 2 + 1(단 정수)
         // 1 <= (int) (n*3) + 1 <= 3(단 정수)
 
-        System.out.println((int) ((n*3) + 1)); //1,2,3
+        System.out.println((int) ((n*3)) + 1); //1,2,3
     }
 }
