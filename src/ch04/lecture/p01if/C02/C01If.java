@@ -1,4 +1,4 @@
-package ch04.lecture.p01if;
+package ch04.lecture.p01if.C02;
 
 public class C01If {
     public static void main(String[] args) {
