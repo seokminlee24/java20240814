@@ -1,4 +1,4 @@
-package ch04.lecture.p01if.C02;
+package ch04.lecture.p01if;
 
 import java.util.Random;
 
