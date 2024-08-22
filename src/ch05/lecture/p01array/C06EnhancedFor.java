@@ -12,8 +12,8 @@ public class C06EnhancedFor {
         }
         System.out.println("EnhancedFor=================");
         //향상된 for
-        for(int n : arr){
-            System.out.println("n = " + n);
+        for(int a : arr){
+            System.out.println("a = " + a);
         }
     }
 }
