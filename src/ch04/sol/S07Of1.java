@@ -9,9 +9,11 @@ public class S07Of1 {
         int balance = 0;
 
         while (run){
-            System.out.println("----------");
-            System.out.println("1. 예금 | 2. 출금 | 3. 잔고 | 4.종료" );
-            System.out.println("----------");
+            System.out.print("""
+                    ------------------------------------
+                    1. 예금 | 2. 출금 | 3. 잔고 | 4.종료"
+                    ------------------------------------
+                    """);
             System.out.print("선택>");
             int strNum = sc.nextInt();
             int money = 0;
