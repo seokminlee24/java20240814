@@ -8,5 +8,14 @@ public class S06 {
             }
             System.out.println();
         }
+        System.out.println("---------------------------");
+        for (int a = 5; a >= 1; a--) {
+            for (int b = 0; b < a ; b++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
     }
 }
+
