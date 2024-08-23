@@ -11,10 +11,13 @@ public class ArrayLengthExample1 {
 //            sum+=scores[i];
 //        }
         int sum = 0;
+       // double avg = 0;
         for(int score : scores){
             sum += score;
+            //avg = (sum + score)/(double)scores.length;
         }
         System.out.println("총합 = " + sum);
+        //System.out.println("평균 = " +avg);
 
 
         //배열의 항목의 평균 구하기

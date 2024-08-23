@@ -13,5 +13,9 @@ public class C08Array {
 
         //new String[] 생략
         String[] drr = {"java","css","spring"};
+        //brr
+        for (int i : brr) {
+            System.out.println(i);
+        }
     }
 }
