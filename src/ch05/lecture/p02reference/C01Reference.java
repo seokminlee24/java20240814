@@ -2,7 +2,7 @@ package ch05.lecture.p02reference;
 
 public class C01Reference {
     public static void main(String[] args) {
-        int a;
+        int a; //
         int [] arr;
 
         a=3;

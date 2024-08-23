@@ -2,7 +2,7 @@ package ch05.lecture.p02reference;
 
 public class C02Reference {
     public static void main(String[] args) {
-        int[] arr = new int[]{7,8};
+        int[] arr = new int[]{7,8}; //
         int[] brr = {7,8};
         int[] crr = arr;
 
