@@ -8,7 +8,7 @@ public class C011Contains {
         boolean a = s.contains("java"); //true
         System.out.println(a);
 
-        boolean b = s.contains("pro"); //true
+        boolean b = s.contains("pro"); //true1
         System.out.println("b = " + b);
 
         boolean c = s.contains("a"); //true
