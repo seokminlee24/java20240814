@@ -5,7 +5,7 @@ public class C08Replace {
         //replace : 부분 문자열을 다른 문자열로 교체
         String s = "java programming language, python language";
         //원본은 바뀌지 않는다.
-        String t = s.replace("language", "언어");
+        String t = s.replace("language", "언어"); //단어 바꾸기
 
         System.out.println(s);
         System.out.println(t);
