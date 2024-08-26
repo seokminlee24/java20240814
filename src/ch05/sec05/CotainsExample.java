@@ -10,17 +10,17 @@ public class CotainsExample {
         System.out.println("substring = " + substring);
 
         location = subject.indexOf("자바");
-        if(location 1= -1){
-            System.out.println("자바와 관련된 책이 아닌군요");
-        }else{
+        if(location != -1){
             System.out.println("자바와 관련된 책이 맞군요");
+        }else{
+            System.out.println("자바와 관련된 책이 아니군요");
         }
 
         boolean result = subject.contains("자바");
         if(result){
-            System.out.println("자바와 관련된 책이 아닌군요");
-        }else{
             System.out.println("자바와 관련된 책이 맞군요");
+        }else{
+            System.out.println("자바와 관련된 책이 아니군요");
         }
     }
 }
