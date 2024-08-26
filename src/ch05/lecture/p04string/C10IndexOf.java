@@ -13,7 +13,7 @@ public class C10IndexOf {
         int n3 = s.indexOf("a");//1
         System.out.println("n3 = " + n3);
 
-        int n4 = s.indexOf("python");//-1
+        int n4 = s.indexOf("python");//-1/
         System.out.println("n4 = " + n4);
 
         int n5 = s.indexOf("css");
