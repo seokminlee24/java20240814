@@ -1,4 +1,4 @@
-package ch06.lectrue.po1class;
+package ch06.lectrue.p01class;
 
 public class C04Class {
     public static void main(String[] args) {
