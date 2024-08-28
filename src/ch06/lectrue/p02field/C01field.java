@@ -1,4 +1,4 @@
-package ch06.lectrue.po2field;
+package ch06.lectrue.p02field;
 
 public class C01field {
     public static void main(String[] args) {
