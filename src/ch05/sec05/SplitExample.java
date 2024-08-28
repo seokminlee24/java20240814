@@ -13,8 +13,11 @@ public class SplitExample {
         System.out.println();
 
         //for 문을 이용한 읽기
-        for (int i = 0; i < tokens.length; i++) {
-            System.out.println(tokens[i]);
+//        for (int i = 0; i < tokens.length; i++) {
+//            System.out.println(tokens[i]);
+//        }
+        for(String u: tokens){
+            System.out.println(u);
         }
     }
 }
