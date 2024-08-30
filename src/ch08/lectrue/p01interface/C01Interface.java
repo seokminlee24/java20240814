@@ -3,7 +3,7 @@ package ch08.lectrue.p01interface;
 public class C01Interface {
 
 }
-
+// @formatter:off
 interface Aquatic1{}
 interface Beast1{}
 
