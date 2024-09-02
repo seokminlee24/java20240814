@@ -6,7 +6,7 @@ public class InterfaceExample {
         C c = new C();
         D d = new D();
         E e = new E();
-
+        A a;
         b.method(new B());
         c.method(new C());
         d.method(new D());
