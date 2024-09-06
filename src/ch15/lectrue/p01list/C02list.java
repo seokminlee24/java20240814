@@ -7,7 +7,7 @@ import java.util.List;
 public class C02list {
     public static void main(String[] args) {
         // list 전체탐색 하기
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();//
         list.add("java");
         list.add("git");
         list.add("sql");

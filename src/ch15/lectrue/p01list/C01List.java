@@ -23,7 +23,7 @@ public class C01List {
         //get(0-indexed)
         String item1 = list.get(0);
         String item2 = list.get(2);
-        System.out.println("item1 = " + item1);
+        System.out.println("item1 = " + item1);//
         System.out.println("item2 = " + item2);
 
         //element 확인(검색)
