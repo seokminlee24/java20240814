@@ -6,7 +6,7 @@ import java.util.List;
 public class C03List {
     public static void main(String[] args) {
         //list : 순서가 있다.
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();//
         list.add("java");
         list.add("css");
         list.add("html");
