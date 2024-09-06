@@ -33,9 +33,9 @@ public class LambdaExample {
     }
     public static void action(Calculable calculable){
         //데이터
-        int x = 10;
-        int y =4;
+        int x;
+        int y;
         //데이터 처리
-        calculable.calculate(x,y);
+        calculable.calculate(10,4);
     }
 }
