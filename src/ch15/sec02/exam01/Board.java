@@ -8,7 +8,7 @@ public class Board {
     public Board(String subject, String content, String writer) {
         this.subject = subject;
         Content = content;
-        this.writer = writer;
+        this.writer = writer;//
     }
 
     public String getSubject() {

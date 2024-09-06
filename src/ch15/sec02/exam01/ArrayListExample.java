@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayListExample {
     public static void main(String[] args) {
-        List<Board> list = new ArrayList<Board>();
+        List<Board> list = new ArrayList<Board>();//
 
         list.add(new Board("제목1", "내용1", "글쓴이1"));
         list.add(new Board("제목2", "내용2", "글쓴이2"));
