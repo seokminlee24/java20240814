@@ -9,7 +9,7 @@ public class LinkedListExample {
 
         List<String> list2 = new ArrayList<>();
 
-        long startTime;
+        long startTime;//
         long endTime;
 
         startTime = System.nanoTime();
