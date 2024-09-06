@@ -8,7 +8,7 @@ public class ListExample {
         BoardDao dao = new BoardDao();
         List<Board> list = dao.getBoardList();
         for (Board board : list){
-            System.out.println(board.toString());
+            System.out.println(board.toString());//
         }
     }
 }

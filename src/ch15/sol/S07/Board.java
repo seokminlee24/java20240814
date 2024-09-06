@@ -10,7 +10,7 @@ public class Board {
     }
 
     public String getTitle() {
-        return title;
+        return title;//
     }
 
     public void setTitle(String title) {
