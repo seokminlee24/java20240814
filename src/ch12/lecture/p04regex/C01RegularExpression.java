@@ -61,7 +61,7 @@ public class C01RegularExpression {
         String p8 ="[^0-9][0-9]";
         System.out.println(matches(p8,"99")); //f
         System.out.println(matches(p8,"a8")); //f
-        System.out.println(matches(p8,"*9")); //t
+        System.out.println(matches(p8,"z9")); //t
 
     }
 }
