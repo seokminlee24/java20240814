@@ -2,7 +2,7 @@ package ch18.lectrue.p02input;
 
 import java.io.*;
 
-public class C05Copy5 {
+public class C05Copy {
     public static void main(String[] args) {
         String original = "C:/Temp/지구온난화.jpg";
         String target = "C:/Temp/지구온난화2.jpg";

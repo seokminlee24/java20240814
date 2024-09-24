@@ -6,7 +6,7 @@ public class C06Double {
         // -Infinity : 음의 무한대
 
         // 정수 연산시 0으로 나눌 수 없음
-//        System.out.println(3 / 0); // 오류!
+        //System.out.println(3 / 0); // 오류!
 
         // 실수 연산시 0으로 나누면 Infinity
         System.out.println(3.0 / 0);

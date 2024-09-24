@@ -2,11 +2,11 @@ package ch06.sol;
 
 public class S16 {
     public static void main(String[] args) {
-        Printer printer = new Printer();
+        /*ch06.sol.s17.Printer printer = new ch06.sol.s17.Printer();
         printer.println(10);
         printer.println(5.7);
         printer.println("홍길동");
-        printer.println(true);
+        printer.println(true);*/
     }
 }
 class Printer{

@@ -41,4 +41,9 @@ class MyClass22 implements MyInterface2 {
     public void method1() {
         System.out.println("MyClass22.method1");
     }
+
+    @Override
+    public void method2() {
+        System.out.println("MyClass22.method2");
+    }
 }

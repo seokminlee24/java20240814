@@ -16,5 +16,6 @@ public class C05Parsing {
         double c1 = Double.parseDouble(c);
 
         double d = 5 + c1;
+        System.out.println(d);
     }
 }

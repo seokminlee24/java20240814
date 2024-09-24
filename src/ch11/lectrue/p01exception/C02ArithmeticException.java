@@ -5,7 +5,7 @@ public class C02ArithmeticException {
         int a = 5;
         int b = 0;
 
-        int c = a / b; //ArithmeticException
+        //int c = a / b; //ArithmeticException
 
         System.out.println("다음코드");
     }

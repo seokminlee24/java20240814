@@ -14,9 +14,17 @@ public class Example {
         );
 
         double average = list.stream()
-                .mapToInt(Member::getAge)
+                .map(Member::getAge)
+                .mapToInt(Integer::intValue)
                 .average()
-                .getAsDouble();
+                .orElse(0.0);
         System.out.println("평균 나이 : " + average);
+
+        double avg1 = 0.0;
+        for(Member member : list){
+            avg1 += member.getAge();
+        }
+        avg1 /= list.size();
+        System.out.println("avg1 = " + avg1);
     }
 }

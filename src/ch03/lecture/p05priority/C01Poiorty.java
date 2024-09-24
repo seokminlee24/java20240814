@@ -1,11 +1,11 @@
-package ch03.lecture.p05.priority;
+package ch03.lecture.p05priority;
 
 public class C01Poiorty {
     public static void main(String[] args) {
         //연산자 우선 순위
         //책 107쪽
 
-//        boolean a = false || true &&
+        //boolean a = false || true &&
         int a = 3 + 5 * 2; //13
         System.out.println("a = " + a);
 

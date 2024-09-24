@@ -6,7 +6,7 @@ public class S05 {
         int lengthBottom = 10;
         int height = 7;
         //(윗변 + 아랫변) * 높이 / 2
-        double area =(double) (lengthTop+lengthBottom)*7/2;
+        double area =(double) (lengthTop+lengthBottom)*height/2;
         System.out.println("area = " + area); //52.5
     }
 }
